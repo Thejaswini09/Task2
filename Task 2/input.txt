@@ -1,0 +1,28 @@
+Common sentence structures: Common sentence structures like 'How are you doing?', 'I'm gonna…', 'I like to…', 'Look for…', and 'I wanna...' should be used to teach basic sentences. To avoid the confusion of grammar rules, contractions like 'He's' should be taught.
+Commonly-used slang words: Children of this age group should be aware of common slang words to understand the common things around them. For example, bucks, cringe, binge, veggie, vegan, grandpa, mat, granny, etc. Many words are often used in the local surroundings and public places.
+Reading content: For this age group, books, comics, and children's magazines should be recommended. Content by local writers that has glimpses of the local culture and dialect should be utilised. In English Informal Communication Skill Course for Kids, children are encouraged to frame dialogues on real-life situations such as 'How to converse with a fruit seller?'. Common sentences used by vendors, sellers, drivers, neighbours, and other children should be taught. The Informal Communication Skill Class for Students provides good reading content to the children.
+Mother tongue environment: The mother is the first teacher of a child. If a child's mother is an English-speaking lady, the child will easily learn the common sentences and words in the language. If not, the mother should use English dialects before the child. Parents can use common words and sentence structures while talking to other family members so that the young child can imitate. A person's mother tongue plays a very important role in every person's life, and this should not be compromised in any situation. Children should be kept connected with the teachings. A sense of love, care, and respect towards the mother tongue and the nation's culture should be developed. The English Informal Communication Skill Course for Kids takes care of these small but essential qualities in the kids. 
+Informal situations: Children should be exposed to real-life situations. If parents are going to the market to purchase grocery items, the child can accompany them and see how the conversation takes place between the parents and the shopkeeper. In class, teachers can organise a real-life situation activity. Children will happily participate in the discussions and fun activities and will surely grasp and learn skills from them.
+Common idioms, proverbs, and phrases: Though idioms and phrases are part of formal English, children should easily learn them and mostly use idioms and phrases. They add variety and uniqueness to language. A lengthy statement can be described in short with impact using idioms which are creatively taught in the English Informal Communication Skill Course for Kids. For example, common idioms and phrases like a cherry on top, finding a needle in a haystack, raining cats and dogs, the apple of one's eye, put on, call in, break into, hang on, etc.
+Common abbreviations and contractions: For learning fluent English, abbreviations and contractions are vital in building a good communication process. In informal communications, abbreviations and contractions are always used. They make the language easy to understand and convincing. Some common abbreviations and contractions are sis, bro, bae, bestie, lol, gonna, wanna, dunno, I’ll, won’t, shan’t, he’ll, he’s, they’re, isn’t, ain’t, etc. The English Informal Communication Skill Course for Kids offers proper classes for this quality.
+
+
+As an example, the smiley emoticon 🙂 is Unicode character 0x16F03.
+
+One thing that you will immediately notice by its character code is that this character code is larger than can be represented in 16 bits.
+
+As the Unicode standard has grown, it has been determined that not all universal characters can be accommodated within the 65,536 possible codes available in a 16-bit alphabet.
+
+Characters that can be encoded in 16 bits are known as the UCS-2 alphabet.  The full Unicode character set, which includes characters 0x10000 and above is known as the UCS-4 alphabet.
+
+Unicode SMS format was originally defined as using UCS-2 encoding, but standards updates have changed this to use UTF-16 encoding instead.  Characters below 0x10000, which are part of the UCS-2 range, are encoded in UTF-16 as their standard 16-bit character value.  Characters 0x10000 and above (UCS-4) are encoded in UTF-16 with two 16-bit characters.  (Portions of the UCS-2 character space were reserved to prevent conflicts.)
+
+Our friend the smiley emoticon 🙂 is 0x00016F03 in UCS-4 (or UTF-32) encoding.  In UTF-16 encoding, it is encoded as two 16-bit characters, 0xD83D followed by 0xDE0x.
+
+But wait … it gets a little more complicated.
+
+When working with the HTTP protocol, Unicode characters are more typically encoded using UTF-8 encoding.  This is the default character set used by NowSMS HTTP interfaces.
+
+In UTF-8 encoding, 🙂 (0x16F03) is encoded as four 8-bit characters 0xF0 0x9F 0x98 0x83.
+
+try these: 💉 💎 or 👦🏻 👓 ⚡

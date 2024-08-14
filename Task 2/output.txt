@@ -1,0 +1,28 @@
+sentence structure sentence structure like going like Look want teach basic sentence avoid confusion grammar rule contraction like taught 
+  Commonlyused slang word Children age group aware slang word understand thing example buck cringe binge veggie vegan grandpa mat granny etc word local surroundings public place 
+  Reading content age group book comic childrens magazine recommended Content local writer glimpse local culture dialect utilised English Informal Communication Skill Course Kids child encouraged frame dialogue reallife situation converse fruit seller sentence vendor seller driver neighbour child taught Informal Communication Skill Class Students provides good reading content child 
+  Mother tongue environment mother teacher child child mother Englishspeaking lady child easily learn sentence word language NOT_the mother use English dialect child Parents use word sentence structure talking family member young child imitate person mother tongue play important role person life NOT_be compromised situation Children kept connected teaching sense love care respect mother tongue nation culture developed English Informal Communication Skill Course Kids take care small essential quality kid 
+  Informal situation Children exposed reallife situation parent going market purchase grocery item child accompany conversation take place parent shopkeeper class teacher organise reallife situation activity Children happily participate discussion fun activity surely grasp learn skill 
+  idiom proverb phrase idiom phrase formal English child easily learn use idiom phrase add variety uniqueness language lengthy statement described short impact idiom creatively taught English Informal Communication Skill Course Kids example idiom phrase like cherry finding needle haystack raining cat dog apple one eye break hang etc 
+  abbreviation contraction learning fluent English abbreviation contraction vital building good communication process informal communication abbreviation contraction language easy understand convincing abbreviation contraction si bro bae bestie lol going want NOT_know NOT_shall NOT_he NOT_are NOT_etc English Informal Communication Skill Course Kids offer proper class quality 
+
+
+  example smiley emoticon slightlysmilingface Unicode character 0x16F03 
+
+  thing immediately notice character code character code larger represented 16 bit 
+
+  Unicode standard grown determined NOT_all universal character accommodated 65536 possible code available 16bit alphabet 
+
+  Characters encoded 16 bit known UCS2 alphabet    Unicode character set includes character 0x10000 known UCS4 alphabet 
+
+  Unicode SMS format originally defined UCS2 encoding standard update changed use UTF16 encoding instead    Characters 0x10000 UCS2 range encoded UTF16 standard 16bit character value    Characters 0x10000 UCS4 encoded UTF16 16bit character    Portions UCS2 character space reserved prevent conflict 
+
+  friend smiley emoticon slightlysmilingface 0x00016F03 UCS4 UTF32 encoding    UTF16 encoding encoded 16bit character 0xD83D followed 0xDE0x 
+
+  wait    get little complicated 
+
+  working HTTP protocol Unicode character typically encoded UTF8 encoding    default character set NowSMS HTTP interface 
+
+  UTF8 encoding slightlysmilingface 0x16F03 encoded 8bit character 0xF0 0x9F 0x98 0x83 
+
+  try syringe gemstone boylightskintone glass highvoltage

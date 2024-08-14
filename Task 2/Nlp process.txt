@@ -1,0 +1,84 @@
+my aim to create a advanced NLP pipeline which preprocesses the text that is obtained from a text file
+I have defined many functions for preprocessing which is as follows:
+for tokenisation - 
+
+def tokenize_spacy(doc):
+    nlp = spacy.load("en_core_web_sm")
+    doc = nlp(doc)
+    tokens = []
+    for token in doc:
+        tokens.append(token.text)
+    return tokens
+
+for lemmatisation -
+
+ def lemmatization(tokens):
+    wnl = WordNetLemmatizer()
+    lemmatised_tokens = [wnl.lemmatize(token) for token in tokens]
+    return lemmatised_tokens
+
+for handling special characters and emoji - 
+
+def handle_special_characters(text):
+    text = re.sub(r"[^a-zA-Z0-9\s]", "", text)
+    with open('Emoji_Dict.p', 'rb') as fp:
+    Emoji_Dict = pickle.load(fp)
+    Emoji_Dict = {v: k for k, v in Emoji_Dict.items()}
+    for emot in Emoji_Dict:
+        text = re.sub(r'('+emot+')', "_".join(Emoji_Dict[emot].replace(",","").replace(":","").split()), text)
+    return text
+
+for handling contractions - 
+import contractions
+def contractions(text):
+	expanded_words = [] 
+	for word in text.split():
+		expanded_words.append(contractions.fix(word)) 
+	expanded_text = ' '.join(expanded_words)
+	return expanded_text 
+
+for handling the negations - 
+
+
+def handle_negations(text):
+    import spacy
+    nlp = spacy.load("en_core_web_sm")  
+    doc = nlp(text)
+    negations = {"not", "no", "never", "none", "neither", "nor", "cannot", "can't", "n't"}
+    result_words = []
+    i = 0
+    while i < len(doc):
+        token = doc[i]
+        if token.lower_ in negations:
+            result_words.append(token.text)
+            i += 1
+            while i < len(doc) and not doc[i].is_punct and not doc[i].is_space:
+                result_words.append("NOT_" + doc[i].text)
+                i += 1
+        else:
+            result_words.append(token.text)
+            i += 1
+
+    return " ".join(result_words)
+
+I want to also give an option to customise the stopwords. these are the two functions that I have created for customising the stopwords - i want to create a seperate class for this -
+ def stopwords_add(word):
+    from nltk.corpus import stopwords
+    extra = ['some', 'ahh', 'okay', 'alright','um', 'aa', 'hello', 'audible', 'ok']
+    extra.append(word)
+    stop_words = stopwords.words('english')
+    stop_words.extend(extra)
+    return stop_words 
+
+def stopwords_remove(word):
+    from nltk.corpus import stopwords
+    extra = [ 'some', 'ahh', 'okay', 'alright','um', 'aa', 'hello', 'audible', 'ok']
+    stop_words = stopwords.words('english')
+    stop_words.extend(extra)
+    if word in extra:
+        stop_words.remove(word)
+    else:
+        return ValueError
+    return stop_words
+
+make it as a pipeline such that if I give a input text file i should be getting the output text file with preprocessed text. 
